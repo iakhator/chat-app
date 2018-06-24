@@ -1,0 +1,21 @@
+# dependencies
+node_modules
+
+# env
+.env
+
+# logs
+*.log
+
+# server build
+build
+
+# Intellij idea
+.idea
+*iml
+
+# VSCode
+.vscode
+
+# Error log
+yarn-error.log
