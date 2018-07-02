@@ -4,7 +4,7 @@ import {
 import users from './users'
 import auth from './auth'
 import jwt from './jwt'
-// import conversation from './conversation'
+import conversation from './conversation'
 
 const router = Router()
 
@@ -12,6 +12,6 @@ const router = Router()
 router.use(auth)
 router.use(jwt)
 router.use(users)
-// router.use(conversation)
+router.use(conversation)
 
 export default router

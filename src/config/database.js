@@ -16,7 +16,7 @@ mongoose.set('debug', process.env.MONGOOSE_DEBUG)
 
 // Connect the db with the url provide
 try {
-  mongoose.connect(constants.DB_URL)
+  mongoose.connect(constants.DB_URL, { useMongoClient: true })
 } catch (err) {
   mongoose.createConnection(constants.DB_URL)
 }
